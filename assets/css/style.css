@@ -72,6 +72,14 @@ h1 {
   padding: 40px 100px;
   text-align: center;
 }
+.bottom-block > h1 {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-block > h2 {
+  font-family: cursive;
+  font-weight: 500;
+}
 .block {
   display: flex;
   flex-direction: row;
@@ -93,6 +101,7 @@ h1 {
   color: white;
   font-size: 20px;
   background-color: #112031;
+  font-family: monospace;
 }
 .edu-left-block {
   color: white;
@@ -107,8 +116,9 @@ h1 {
   color: white;
   font-size: 20px;
   background-color: #345B63;
+  font-family: monospace;
 }
 
 table {
-  margin-top: 30%;
+  margin-top: 20%;
 }
