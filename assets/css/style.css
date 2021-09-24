@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: #345B63;
+  font-family: "Koh Santepheap", cursive;
+}
+.common-button {
+    background-color: #ff7878;
+    padding: 15px 25px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 35%;
+    color: white;
+    border: 1px solid white;
+    border-top-right-radius:10px;
+}
+
+.button-home {
+  
+} 
+.button-about {
+  margin-top: 50px;
+}
+.button-education {
+  margin-top: 100px;
+}
+.button-contact {
+  margin-top: 150px;
+}
+.portrait {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  size: 200pxs;
+}
+
+#home {
+  margin-top: 0px;
+  height: 100vh;
+}
+#about {
+  height: 100vh;
+}
+#education {
+  height: 100vh;
+}
+#contact {
+  height: 100vh;
+  text-align: center;
+}
+.common-button:hover {
+  color: #ff7878;
+  background-color: white;
+}
+.home-block {
+  background-color: teal;
+}
+.top-block {
+  height: 50%;
+}
+.top-block > img {
+  padding: 60px;
+}
+.bottom-block {
+  height: 50%;
+  padding: 40px 100px;
+  text-align: center;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.child {
+  width: 50%;
+  height: 100vh;
+}
+.abt-left-block {
+  color: white;
+  letter-spacing: 4px;
+  line-height: 100vh;
+  font-size: 25px;
+  background-color: #345B63;
+}
+.abt-right-block {
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: #112031;
+}
+.edu-left-block {
+  color: white;
+  letter-spacing: 4px;
+  line-height: 100vh;
+  font-size: 25px;
+  background-color: #112031;
+}
+
+.edu-right-block {
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: #345B63;
+}
+
+table {
+  margin-top: 30%;
+}
