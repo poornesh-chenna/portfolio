@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #345B63;
+  /* background-color: #345B63; */
   font-family: "Koh Santepheap", cursive;
 }
 .common-button {
@@ -97,11 +97,15 @@ h1 {
   background-color: #345B63;
 }
 .abt-right-block {
-  padding: 50px;
+  padding-left: 0px;
+  padding-top: 0;
   color: white;
   font-size: 20px;
   background-color: #112031;
   font-family: monospace;
+}
+.about-sample{
+  padding-left: 2%;
 }
 .edu-left-block {
   color: white;
@@ -112,13 +116,38 @@ h1 {
 }
 
 .edu-right-block {
-  padding: 50px;
+ /* padding: 50px;*/
   color: white;
   font-size: 20px;
   background-color: #345B63;
   font-family: monospace;
 }
+.edu{
+  padding-left: 2%;
+}
 
 table {
   margin-top: 20%;
+  padding-left: 2%;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.con-icon{
+  margin-top: 50%;
+}
+.con-left-block{
+  color: white;
+  font-size: 20px;
+  background-color: #345B63;
+  /*line-height: 100vh;*/
+  
+  font-family: monospace;
+}
+.con-right-block{
+  color: white;
+  font-size: 20px;
+  background-color: #112031;
+  font-family: monospace;
 }
